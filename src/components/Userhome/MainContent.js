@@ -7,10 +7,11 @@ import FormControlLabel from "@material-ui/core/FormControlLabel";
 import FormLabel from "@material-ui/core/FormLabel";
 import Radio from "@material-ui/core/Radio";
 import RestaurantCard from "./RestaurantCard";
+import { BASE_URL } from "../../variables";
 
 export default function MainContent() {
   const [items, setItems] = useState([]);
-  const baseurl = "http://localhost:8000";
+  const baseurl = BASE_URL;
   useEffect(() => {
     axios.get(baseurl + "/restaurant/list").then((res) => {
       setItems(res.data);
