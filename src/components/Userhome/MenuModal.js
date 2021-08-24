@@ -134,43 +134,43 @@ export default function MenuModal(props) {
             <div>
               <ul className="menuContainer">
                 <p className="menuitem item">Chinese Sizzler</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>500</b>
                 </p>
                 <p className="menuitem item">Chowmein and Manchurian</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>200</b>
                 </p>
                 <p className="menuitem item">Butter Chicken</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>520</b>
                 </p>
                 <p className="menuitem item">Chole Bhature</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>150</b>
                 </p>
                 <p className="menuitem item">Uttapam</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>120</b>
                 </p>
                 <p className="menuitem item">Idli Sambhar</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>150</b>
                 </p>
                 <p className="menuitem item">Cheese Pizza</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>300</b>
                 </p>
                 <p className="menuitem item">Cheese Pasta</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>270</b>
                 </p>
                 <p className="menuitem item">Chocolate Cake</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>1200</b>
                 </p>
                 <p className="menuitem item">Waffles</p>
-                <p className="menuprice item">
+                <p className="menuprice">
                   ₹ <b>120</b>
                 </p>
               </ul>
