@@ -1,0 +1,38 @@
+.footer {
+  /* background-color: rgb(58, 58, 58); */
+  background-color: #363739;
+  color: #f8b300;
+  bottom: 0;
+  width: "100%";
+  height: 300;
+}
+footer {
+  padding: 20px;
+  backdrop-filter: blur(2px);
+}
+.devs {
+  text-align: center;
+  margin-top: 25px;
+}
+.social {
+  margin: 10px;
+  color: white;
+}
+
+.social:hover {
+  color: #f8b300;
+}
+
+#copyright {
+  margin-top: 50px;
+}
+
+@media (max-width: 750px) {
+  .devs {
+    display: block;
+    margin-top: 25px;
+  }
+  .dev {
+    margin: 30px;
+  }
+}

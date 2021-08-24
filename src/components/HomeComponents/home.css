@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+
+.home-master {
+  background-color: #f8b300;
+  color: #363739;
+  height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 8fr 2fr 2fr;
+  padding: 1.5rem 10rem;
+}
+.auth {
+  border: none;
+  /* margin-left: 4rem; */
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  font-family: Montserrat;
+}
+#login {
+  background-color: #363739;
+  color: #f8b300;
+}
+#signup {
+  color: #363739;
+  border: solid thin #363739;
+  background-color: #f8b300;
+  justify-self: center;
+}
+#login:hover {
+  color: #363739;
+  border: solid thin #363739;
+  background-color: #f8b300;
+  transition: 0.5s;
+}
+#signup:hover {
+  background-color: #363739;
+  color: #f8b300;
+  transition: 0.5s;
+}

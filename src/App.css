@@ -1,0 +1,23 @@
+/* *{
+    margin: 0;
+}
+
+.head-div{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-div{
+    height: 20vh;
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-div img{
+    width: 100%;
+} */

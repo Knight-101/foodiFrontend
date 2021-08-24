@@ -1,0 +1,10 @@
+#logo {
+  display: flex;
+  width: 7vw;
+  height: 7vw;
+}
+
+#Head {
+  margin: 3rem;
+  display: flex;
+}

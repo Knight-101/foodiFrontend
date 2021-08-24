@@ -1,0 +1,37 @@
+/* body {
+  text-align: center;
+  background-color: #000000;
+} */
+.authDiv {
+  width: 32vw;
+  padding: 1.5rem;
+  border-radius: 10px;
+  min-width: 300px;
+  background-color: white;
+  color: #363739;
+}
+.auth-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8b300;
+  color: #363739;
+  background-image: url("https://www.transparenttextures.com/patterns/food.png");
+  text-align: center;
+  font-family: Montserrat;
+}
+.authBtn {
+  background-color: #363739;
+  color: #f8b300;
+  font-size: 1.4rem;
+  padding: 0.4rem 0;
+  font-weight: bold;
+}
+.authBtn:hover {
+  color: #f8b300;
+}
+
+/* #Head {
+  margin-top: 3vw;
+} */
