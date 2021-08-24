@@ -50,14 +50,7 @@ ul {
 .menuprice {
   margin: 0;
 }
-li {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  cursor: pointer;
-}
-li:hover {
+.item:hover {
   background-color: #f0f0f0;
 }
 .menuContainer {
